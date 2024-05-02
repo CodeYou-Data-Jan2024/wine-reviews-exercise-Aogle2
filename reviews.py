@@ -12,4 +12,4 @@ final_df = agg_df.rename(columns={'points':"count"}) #renames counts to points
 
 final_df['points'] = points_df['points']
 
-print(final_df.to_csv("data/WineReviews.csv"))
+print(final_df.to_csv("data/reviews-per-country.csv"))
